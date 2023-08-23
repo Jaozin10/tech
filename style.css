@@ -1,0 +1,120 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    border: none;
+}
+
+html::-webkit-scrollbar{
+    width: 5rem;
+}
+
+html::-webkit-scrollbar-track{
+background: transparent;    
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5rem;
+}
+
+.background{
+    background-image: url(gif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.logo img{
+  width: 150px;
+  height: auto;
+  margin-left: 5rem;  
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.container-Icon{
+  margin-right: 5rem;  
+}
+
+.icone ion-icon{
+    color: rgb(8, 8, 8);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    text-transform: capitalize;
+    color: rgb(101,110,3);
+    border-bottom: solid 1px;
+}
+
+hr{
+    border-bottom: solid 0.1px;
+    color: rgb(54,46,46);
+    margin-top: 15px;
+}
+
+.container-title{
+   margin-left: 5rem;
+   margin-top: 10rem; 
+}
+
+.container-title h1{
+    color: white;
+    font-size: 4.8rem;
+
+}
+
+.container-title p{
+   color: rgb(231,208,208);
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.container-title button{
+    margin-top: 2rem;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.container-title:hover{
+    letter-spacing: 2px;
+    transition: 0.3s all;
+
+}
