@@ -63,19 +63,20 @@ ul li{
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    text-decoration: none;
+    color: rgb(255, 255, 255);
     
 }
 
 .container-Icon{
-  margin-right: 5rem;  
+  margin-right: 5rem; 
+  color: white; 
 }
 
 .icone ion-icon{
-    color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     cursor: pointer;
+   
 }
 
 ul li a:hover{
@@ -86,7 +87,7 @@ ul li a:hover{
 
 hr{
     border-bottom: solid 0.1px;
-    color: rgb(54,46,46);
+    color: rgb(255, 255, 255);
     margin-top: 15px;
 }
 
