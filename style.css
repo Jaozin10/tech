@@ -134,3 +134,24 @@ hr{
 .section-1{
     padding: 5rem;
 }
+
+
+
+.sobre-nós{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    max-width: 100%;
+    width:100%;
+    margin-top: 2rem;
+}
+
+.Sobre-nós-title{
+    color: rgb(255, 255, 255);
+}
+
+.sobre-nós img{
+    max-width: 100%;
+    width: 30rem;
+    height: auto;
+}
