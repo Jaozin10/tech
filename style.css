@@ -9,7 +9,7 @@
 }
 
 html::-webkit-scrollbar{
-    width: 5rem;
+    width: 1rem;
 }
 
 html::-webkit-scrollbar-track{
@@ -146,12 +146,110 @@ hr{
     margin-top: 2rem;
 }
 
+.section-1 h1{
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+
 .Sobre-nós-title{
     color: rgb(255, 255, 255);
+    margin-left: 1.3rem;
 }
 
 .sobre-nós img{
     max-width: 100%;
     width: 30rem;
     height: auto;
+}
+
+.Sobre-nós-title h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.Sobre-nós-title p{
+    line-height: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: white;
+    width: 45rem;
+}
+
+.section-2 h1{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.section-2 span{
+    color: white;
+}
+
+.container-card-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-img{
+    border: solid 1px rgba(255,255, 255,255, 255,255, 255,255);
+    padding: 5rem;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 25rem;
+    height: 23rem;
+}
+
+.card-img img{
+    width: 120px;
+    height: auto;
+}
+
+.card-img h3{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.card-img p{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.card-img button{
+    margin-top: 1rem;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.card-img span{
+    color: red;
+    font-weight: lighter;
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.card-img :hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #0d0d0f;
+}
+
+.container-card-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
 }
