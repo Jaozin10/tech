@@ -157,13 +157,10 @@ hr{
 .Sobre-nós-title{
     color: rgb(255, 255, 255);
     margin-left: 1.3rem;
+    
 }
 
-.sobre-nós img{
-    max-width: 100%;
-    width: 30rem;
-    height: auto;
-}
+
 
 .Sobre-nós-title h2{
     color: white;
@@ -183,6 +180,7 @@ hr{
     align-items: center;
     color: white;
     font-size: 3rem;
+    padding: 5rem;
 }
 
 .section-2 span{
@@ -191,9 +189,9 @@ hr{
 
 .container-card-1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -208,7 +206,7 @@ hr{
 }
 
 .card-img img{
-    width: 120px;
+    width: 100px;
     height: auto;
 }
 
